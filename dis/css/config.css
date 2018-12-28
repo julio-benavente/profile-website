@@ -1,0 +1,11 @@
+:root {
+  /* Color */
+  --primary-color : hsl(210, 29%, 24%);
+  --primary-color-light : hsl(210, 29%, 40%);
+  --secondary-color : #3498db;
+
+  /* Transition */
+  --transition: all 0.5s ease-out;
+
+  --home-image: url(../img/background.jpg);
+}
