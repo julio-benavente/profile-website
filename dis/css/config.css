@@ -5,6 +5,7 @@
   --primary-color-dark: hsl(210, 29%, 20%);
   --secondary-color : #3498db;
   --contrast-color: #ffffff;
+  --primary-color-light-opacity : rgba(44, 62, 80,.6);
 
   /* Transition */
   --transition: all 0.5s ease-out;

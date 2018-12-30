@@ -1,5 +1,6 @@
 @import url('config.css');
 @import url('menu.css');
+@import url('mobile.css');
 
 * {
   box-sizing: border-box;
@@ -43,16 +44,18 @@ h1, h2, h3 {
 
 h1.lg-heading {
   font-size: 6rem;
+  color: var(--contrast-color);
 }
 
 h2.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
-  background: var(--primary-color-light);
+  background: var(--primary-color-light-opacity);
+  color: var(--contrast-color);
 }
 
 a {
-  color: #fff;
+  color: var(--contrast-color);
   text-decoration: none;
 }
 
