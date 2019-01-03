@@ -13,15 +13,20 @@ header {
 }
 
 body {
-  height: 100vh;
-  background-image: var(--home-image);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  color: var(--contrast-color);
+  height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }
+
+.bg-image {
+  height: 100vh;
+  background-image: var(--home-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 body:after {
   content: '';
@@ -50,7 +55,7 @@ h1.lg-heading {
 h2.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
-  background: var(--primary-color-light-opacity);
+  background: var(--primary-color-light);
   color: var(--contrast-color);
 }
 
@@ -96,9 +101,61 @@ main .icons {
   color: var(--secondary-color);
 }
 
+/* About Page */
 
+.about-info {
+  display: grid;
+  grid-template-areas:
+  'bioimage bio bio'
+  'job1 job2 job3';
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
 
+.bio-image {
+  grid-area: bioimage;
+  margin: auto;
+  border-radius: 50%;
+  border: var(--secondary-color) 3px solid;
+}
 
+.bio {
+  grid-area: bio;
+  font-size: 1.1rem;
+}
 
+.job-1 {
+  grid-area: job1;
+}
+
+.job-2 {
+  grid-area: job2;
+}
+
+.job-3 {
+  grid-area: job3;
+}
+
+.job {
+  background: var(--primary-color-light);
+  padding: 0.5rem;
+  border-bottom: var(--secondary-color) 5px solid;
+}
+
+.body-about {
+  background: var(--primary-color);
+}
+
+#main-footer {
+  position: relative;
+  /* bottom: 100px; */
+  text-align: center;
+  padding: 1rem;
+  background: var(--primary-color-dark);
+}
+
+.about {
+  height: 100%;
+}
 
 /*  */
