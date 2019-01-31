@@ -62,7 +62,7 @@
 
   .menu-branding .portrait img {
     width: 200px;
-    /*height: 150px;*/
+    height: 200px;
   }
 
   .nav-item {
@@ -84,7 +84,7 @@
 
   main#about div.job {
     text-align: left;
-    
+
   }
 
 }
